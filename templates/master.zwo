@@ -1,0 +1,9 @@
+<workout_file>
+  <author>TODO</author>
+  <name>TODO</name>
+  <description></description>
+  <sportType>bike</sportType>
+  <workout>
+    <SteadyState Duration="3600" Power="1.0" pace="0"/>
+  </workout>
+</workout_file>
