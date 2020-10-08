@@ -76,6 +76,11 @@ store the results in a new file.
 ruby ./script.rb my_workout.zwo.liquid > my_workout.zwo
 ```
 
+To make sure that Zwift plays nicely with your filenames only use
+alphanumeric characters and use the underscore (`_`) instead of
+spaces. Limit your filenames within the workout directory to 16
+characters.
+
 I recommend to name your liquid files differently than your workout
 files (e.g. .liquid) so you don't mix them up. During the creation
 part of your workout it's very convenient to just print out the
