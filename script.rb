@@ -8,7 +8,8 @@ variables = {
   "Z3" => "0.830",
   "Z4" => "0.982",
   "Z5" => "1.130",
-  "SS" => "0.923"
+  "SS" => "0.923",
+  "MAX" => "3.000"
 }
 
 # usage in template:
@@ -22,9 +23,6 @@ class Duration < Liquid::Tag
      hours = elements[-3].to_i
      minutes = elements[-2].to_i
      seconds = elements[-1].to_i
-     puts hours
-     puts minutes
-     puts seconds
      @duration_in_sec = hours * 3600 + minutes * 60 + seconds
   end
 
